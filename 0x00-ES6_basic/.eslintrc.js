@@ -5,12 +5,10 @@ module.exports = {
     jest: true,
   },
   extends: ['airbnb-base'],
-  plugins: ['jest'], // Include the 'jest' plugin
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parser: '@typescript-eslint/parser', // Add the TypeScript parser
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
