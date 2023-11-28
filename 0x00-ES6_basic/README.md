@@ -1,5 +1,6 @@
 
 # Project: 0x00. ES6 Basics
+### Concepts
 - **JavaScript**
 - **ES6**
 ## Tasks
