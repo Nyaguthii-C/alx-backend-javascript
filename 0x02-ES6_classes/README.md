@@ -5,4 +5,4 @@
 ## Tasks
 - **0-classroom.js** - Implementing a class
 - **1-make_classrooms.js** - Implement a function to return an array, importing a class
-- **2--hbtn_course.js** - Implement a class with constructor attributes
+- **2-hbtn_course.js** - Implement a class with constructor attributes
