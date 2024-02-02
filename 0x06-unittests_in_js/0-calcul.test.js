@@ -18,6 +18,12 @@ describe('Test rounding and addition', () => {
           assert.strictEqual(res, 5)     
       });
     });
+    describe('ceil first param then sum', () => {
+      it('should ceil first param then sum', () => {
+          const res = calculateNumber(1.6, 3)
+          assert.strictEqual(res, 5)     
+      });
+    });
     describe('floor first param and ceil second param then sum', () => {
       it('ceil and floor then add', () => {
           const res = calculateNumber(1.2, 3.7)
@@ -28,6 +34,12 @@ describe('Test rounding and addition', () => {
       it('should ceil both params then sum', () => {
           const res = calculateNumber(1.5 , 3.7)
           assert.strictEqual(res, 6)     
+      });
+    });
+    describe('floor both params then sum', () => {
+      it('should floor both param then sum', () => {
+          const res = calculateNumber(1.3, 3.4)
+          assert.strictEqual(res, 4)     
       });
     });
 });
