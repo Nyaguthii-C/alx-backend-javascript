@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "nyc": "^15.1.0"
+  }
+}
