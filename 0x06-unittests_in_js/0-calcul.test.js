@@ -42,8 +42,4 @@ describe('Test rounding and addition', () => {
           assert.strictEqual(res, 4)     
       });
     });
-});
-  
-  
- 
-  
+});  
