@@ -1,5 +1,5 @@
 /*
- * Using Process stdin
+ * Use Process stdin
 */
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
