@@ -6,8 +6,8 @@ class EVCar extends Car {
     this._range = range;
   }
 
-  //when cloneCar is called on a EVCar object, 
-  //the object returned should be an instance of Car instead of EVCar
+  // when cloneCar is called on a EVCar object,
+  // the object returned should be an instance of Car instead of EVCar
   static get [Symbol.species]() {
     return Car;
   }

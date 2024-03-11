@@ -9,10 +9,10 @@ class Car {
     return this;
   }
 
-  //return a new object of the class
+  // return a new object of the class
   cloneCar() {
-    const model = this.constructor[Symbol.species];
-    return new model();
+    const Model = this.constructor[Symbol.species];
+    return new Model();
   }
 }
 
